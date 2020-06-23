@@ -106,6 +106,12 @@ landrs:Intangible a rdfs:Class ;
     rdfs:comment "A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc." ;
     rdfs:subClassOf landrs:Thing .
 
+landrs:Sensor a rdfs:Class ;
+  rdfs:label "Sensor"@en ;
+  rdfs:comment "Device involved in a Procedure. Sensors can be hosted by Platforms. For example: Accelerometers, gyroscopes, barometers, magnetometers, and so forth are Sensors that are typically mounted on a modern smart phone (which acts as Platform)."@en ;
+  rdfs:subClassOf sosa:Sensor ;  
+  rdfs:subClassOf landrs:Product .
+
 landrs:Product a rdfs:Class ;
   rdfs:label "Product"@en ;
   dcterms:source <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> ;
