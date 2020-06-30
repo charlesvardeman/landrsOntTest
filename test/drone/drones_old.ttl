@@ -1,0 +1,39 @@
+@base <https://ld.landrs.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix sosa-ext: <http://www.w3.org/ns/ssn/ext/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix ssn-system: <http://www.w3.org/ns/ssn/systems/> .
+@prefix qudt-1-1: <http://qudt.org/1.1/schema/qudt#> .
+@prefix qudt-unit-1-1: <http://qudt.org/1.1/vocab/unit#> .
+@prefix envo: <http://purl.obolibrary.org/obo/> .
+@prefix ir: <http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#> .
+@prefix st: <http://www.opengis.net/spec/iot_sensing/1.0/req/> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix drone: <http://schema.landrs.org/schema/> .
+@prefix geoschemas: <http://geoschemas.org/> .
+@prefix td: <https://www.w3.org/2019/wot/td#> .
+@prefix eqp: <https://data.nasa.gov/ontologies/atmonto/equipment#> .
+@prefix atm: <https://data.nasa.gov/ontologies/atmonto/ATM#> .
+@prefix aero: <semantics.aero/pages/swim-vocabulary#> .
+@prefix traj: <http://w3id.org/daselab/onto/trajectory#> .
+@prefix step: <http://www.purl.org/net/step#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<id/MjlmNmVmZTAtNGU1OS00N2I4LWI3MzYtODZkMDQ0MTRiNzcxCg==> a drone:UAV ;
+td:title "My Drone Thing" ;
+schema:name "My Drone Thing" ;
+eqp:aircraftSerialNumber "XKFOENGENXWE"@en ;
+eqp:aircraftTypeDesignator "Drone"@en ;
+schema:Model "Mavic"@en;
+schema:Brand "DJI"@en .
